@@ -1,0 +1,58 @@
+<!--index.wxml-->
+<!-- <view class="container"> -->
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>-->
+  <!-- <view class="userinfo">
+
+    <open-data class="userinfo-avatar" background-size="cover" type="userAvatarUrl"></open-data>
+    <open-data class="userinfo-nickname" type="userNickName" data-ooo="userinfo-nickname"></open-data>
+    
+  </view> -->
+  <!-- <view class="img1"><open-data  type="userAvatarUrl"></open-data></view> -->
+  <!-- <open-data type="userNickName"></open-data> -->
+
+  <!-- <view class="title">中奖率超高的小程序</view>
+   
+  <image class="img" src="{{img}}"></image>
+  <view>
+     <button class="weui-btn mini-btn" type="primary" size="mini" bindtap="luckytap">开始抽奖</button>
+  </view> -->
+<!-- <view class="aaa">
+  <view  class="bbb"  wx:for="{{arr}}">
+
+    <text calss="nbsp">玫瑰花</text>
+
+  </view>
+</view> -->
+<!-- 
+ <block wx:if="{{donghua}}">
+  <view class='donghua'>
+    <image bindtap='hua' style='left:{{left1}}px' animation="{{animationData1}}" class='love' src='../images/hua2.png'></image>
+    <image bindtap='hua' style='left:{{left2}}px' animation="{{animationData2}}" class='love' src='../images/hua2.png'></image>
+    <image bindtap='hua' style='left:{{left3}}px' animation="{{animationData3}}" class='love' src='../images/hua2.png'></image>
+    <image bindtap='hua' style='left:{{left4}}px' animation="{{animationData4}}" class='love' src='../images/hua2.png'></image>
+    <image bindtap='hua' style='left:{{left5}}px' animation="{{animationData5}}" class='love' src='../images/hua2.png'></image>
+    <image bindtap='hua' style='left:{{left6}}px' animation="{{animationData6}}" class='love' src='../images/hua2.png'></image>
+    </view>
+  </block>
+
+
+</view> -->
+
+
+<view class="container">
+  <image src="../images/hua.jpg" mode="widthFix"/>
+  <image src="../images/hua2.jpg" mode="widthFix"/>
+  <!-- <image src="https://qiniu-image.qtshe.com/merry_02.jpg" alt="" mode="widthFix"/>
+  <image src="https://qiniu-image.qtshe.com/merry_03.jpg" alt="" mode="widthFix"/>
+  <image src="https://qiniu-image.qtshe.com/merry_04.jpg" alt="" mode="widthFix"/>
+  <image src="https://qiniu-image.qtshe.com/merry_05.jpg" alt="" mode="widthFix"/>
+  <image src="https://qiniu-image.qtshe.com/merry_06.jpg" alt="" mode="widthFix"/>
+  <image src="https://qiniu-image.qtshe.com/merry_07.jpg" alt="" mode="widthFix"/> -->
+</view>
+<canvas  canvas-id="myCanvas" />

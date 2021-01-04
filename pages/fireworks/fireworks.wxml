@@ -1,0 +1,3 @@
+<!--pages/fireworks/fireworks.wxml-->
+
+<web-view wx:if='{{showFireWorks}}' src="https://wxxcx.dcblink.com/upload/fireworks/index.html"></web-view>

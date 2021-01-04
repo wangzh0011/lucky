@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/fireworks/fireworks",
+    "pages/calculate/calculate",
+    "pages/logs/logs",
+    "pages/a/a"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/love.png",
+        "iconPath": "pages/images/love.png",
+        "pagePath": "pages/fireworks/fireworks",
+        "text": "love"
+      },
+      {
+        "selectedIconPath": "pages/images/lili.png",
+        "iconPath": "pages/images/lili.png",
+        "pagePath": "pages/index/index",
+        "text": "you"
+      }
+    ]
+  }
+}
